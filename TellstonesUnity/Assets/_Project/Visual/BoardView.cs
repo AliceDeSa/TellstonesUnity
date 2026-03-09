@@ -4,6 +4,7 @@ using UnityEngine;
 using Tellstones.Core;
 using Tellstones.Core.Events;
 using Tellstones.Core.Domain;
+using DG.Tweening;
 
 namespace Tellstones.Visual
 {

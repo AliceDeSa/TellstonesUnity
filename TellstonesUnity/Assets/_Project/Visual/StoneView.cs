@@ -1,5 +1,6 @@
 using System;
 using Tellstones.Core.Domain;
+using DG.Tweening;
 using UnityEngine;
 
 namespace Tellstones.Visual
@@ -51,22 +52,37 @@ namespace Tellstones.Visual
 
             isAnimating = true;
 
+            // Pula um pouco pra cima (Y) e gira 180
             Vector3 targetRotation = logicalData.virada ? new Vector3(0, 0, 180f) : Vector3.zero;
+
+            Sequence seq = DOTween.Sequence();
             
-            // FIXME: Implementação Real do DOTween aguardando importação do Asset no Editor
-            transform.localEulerAngles = targetRotation;
-            isAnimating = false;
-            onComplete?.Invoke();
+            // 1. Sobe levemente
+            seq.Append(transform.DOMoveY(transform.position.y + 0.5f, flipDuration / 2f).SetEase(Ease.OutQuad));
+            // 2. Gira no ar
+            seq.Join(transform.DORotate(targetRotation, flipDuration).SetEase(Ease.InOutSine));
+            // 3. Desce de volta
+            seq.Append(transform.DOMoveY(transform.position.y, flipDuration / 2f).SetEase(Ease.InQuad));
+
+            seq.OnComplete(() =>
+            {
+                isAnimating = false;
+                onComplete?.Invoke();
+            });
         }
 
         public void AnimateMoveTo(Vector3 targetPosition, float duration = 0.6f, Action onComplete = null)
         {
             isAnimating = true;
 
-            // FIXME: Implementação Real do DOTween aguardando importação do Asset no Editor
-            transform.position = targetPosition;
-            isAnimating = false;
-            onComplete?.Invoke();
+            // Faz um arco suave p/ não atravessar outras pedras da mesa (Jump)
+            transform.DOJump(targetPosition, jumpPower: 1.0f, numJumps: 1, duration)
+                .SetEase(Ease.InOutQuad)
+                .OnComplete(() => 
+                {
+                    isAnimating = false;
+                    onComplete?.Invoke();
+                });
         }
 
         public void Highlight(bool enable)
