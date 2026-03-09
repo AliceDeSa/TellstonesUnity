@@ -1,0 +1,1299 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Alice" at "2026-03-09T19:21:07.9983644Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 23128, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              876a87fef8b24dc2a1c89f42803afe1f
+  Correlation Id:          75b2413d3faa2d8d317c726e5b885f28
+  External correlation Id: 4324640592429872834
+  Machine Id:              5J3ex/Oe63z5Cet4oYywRBOoCxU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Alice" (connect: 0.00s, validation: 0.01s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Alice-notifications" at "2026-03-09T19:21:08.0307597Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 15805 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "4674120486214-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-quit
+-batchmode
+-projectPath
+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity
+-logFile
+build_log2.txt
+Successfully changed project path to: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity
+C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21760]  Target information:
+
+Player connection [21760]  * "[IP] 192.168.1.222 [Port] 55505 [Flags] 2 [Guid] 3489930398 [EditorId] 3489930398 [Version] 1048832 [Id] WindowsEditor(7,Predator_Helios) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21760] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-14528" after 0.2 seconds.
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@4.4.2
+  com.unity.analytics@3.8.1
+  com.unity.collab-proxy@2.7.1
+  com.unity.ide.rider@3.0.36
+  com.unity.ide.visualstudio@2.0.22
+  com.unity.ide.vscode@1.2.5
+  com.unity.purchasing@4.11.0
+  com.unity.test-framework@1.1.33
+  com.unity.textmeshpro@3.0.7
+  com.unity.timeline@1.7.7
+  com.unity.ugui@1.0.0
+  com.unity.xr.legacyinputhelpers@2.1.12
+  com.unity.ai.navigation@1.1.6
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 32 packages:
+  Built-in packages:
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.05 seconds
+[Package Manager] Done resolving packages in 7.13 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Lock file was modified
+[Package Manager] Registered 51 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ads@4.4.2 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ads@4.4.2)
+    com.unity.ai.navigation@1.1.6 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ai.navigation@1.1.6)
+    com.unity.analytics@3.8.1 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.analytics@3.8.1)
+    com.unity.collab-proxy@2.7.1 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.collab-proxy@2.7.1)
+    com.unity.ide.rider@3.0.36 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.rider@3.0.36)
+    com.unity.ide.visualstudio@2.0.22 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.22)
+    com.unity.ide.vscode@1.2.5 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.purchasing@4.11.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.purchasing@4.11.0)
+    com.unity.test-framework@1.1.33 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.test-framework@1.1.33)
+    com.unity.textmeshpro@3.0.7 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.textmeshpro@3.0.7)
+    com.unity.timeline@1.7.7 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.timeline@1.7.7)
+    com.unity.xr.legacyinputhelpers@2.1.12 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.12)
+    com.unity.ext.nunit@1.0.6 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.services.core@1.14.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.core@1.14.0)
+    com.unity.services.analytics@6.0.3 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.analytics@6.0.3)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.sprite@1.0.0)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.tilemap@1.0.0)
+    com.unity.ugui@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d58)
+    Vendor:   NVIDIA
+    VRAM:     7891 MB
+    Driver:   32.0.15.9571
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004216 seconds.
+- Loaded All Assemblies, in  0.217 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.150 seconds
+Domain Reload Profiling: 366ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (78ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (67ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Filename: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetCoreRuntime\dotnet.exe
+Arguments: "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe" checkupdaterconfigs -a "C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Library/PackageCache/com.unity.analytics@3.8.1/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll" --timestamp 639086700776163539  -s "C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\ref\2.1.0;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netfx;+C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Assets;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.sprite@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ads@4.4.2;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ai.navigation@1.1.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.analytics@3.8.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.collab-proxy@2.7.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.rider@3.0.36;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.22;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.vscode@1.2.5;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.purchasing@4.11.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.test-framework@1.1.33;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.textmeshpro@3.0.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.timeline@1.7.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ugui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.12;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ai@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.animation@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.audio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.director@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.video@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.wind@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.xr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.core@1.14.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.analytics@6.0.3;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1"
+Filename: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetCoreRuntime\dotnet.exe
+Arguments: "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe" checkupdaterconfigs -a "C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll" --timestamp 639086700778073802  -s "C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\ref\2.1.0;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netfx;+C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Assets;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.sprite@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ads@4.4.2;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ai.navigation@1.1.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.analytics@3.8.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.collab-proxy@2.7.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.rider@3.0.36;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.22;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.vscode@1.2.5;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.purchasing@4.11.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.test-framework@1.1.33;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.textmeshpro@3.0.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.timeline@1.7.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ugui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.12;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ai@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.animation@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.audio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.director@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.video@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.wind@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.xr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.core@1.14.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.analytics@6.0.3;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1"
+Filename: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetCoreRuntime\dotnet.exe
+Arguments: "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe" checkupdaterconfigs -a "C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Editor.dll" --timestamp 639086700779312481  -s "C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\ref\2.1.0;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netfx;+C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Assets;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.sprite@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ads@4.4.2;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ai.navigation@1.1.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.analytics@3.8.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.collab-proxy@2.7.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.rider@3.0.36;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.22;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.vscode@1.2.5;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.purchasing@4.11.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.test-framework@1.1.33;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.textmeshpro@3.0.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.timeline@1.7.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ugui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.12;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ai@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.animation@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.audio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.director@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.video@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.wind@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.xr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.core@1.14.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.analytics@6.0.3;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1"
+[API Updater] Processing imported assemblies took 629 ms (3/3 assembly(ies)).
+Filename: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetCoreRuntime\dotnet.exe
+Arguments: "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe" update -a "C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Editor.dll" --output "C:/Users/Alice/AppData/Local/Temp/tmp37356eed.tmp" --api-version 2022.3.62f3  -s "C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\ref\2.1.0;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netfx;+C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Assets;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.sprite@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ads@4.4.2;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ai.navigation@1.1.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.analytics@3.8.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.collab-proxy@2.7.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.rider@3.0.36;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.22;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.vscode@1.2.5;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.purchasing@4.11.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.test-framework@1.1.33;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.textmeshpro@3.0.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.timeline@1.7.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ugui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.12;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ai@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.animation@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.audio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.director@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.video@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.wind@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.xr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.core@1.14.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.analytics@6.0.3;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1;+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Managed" "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine.dll" "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEditor.dll"
+Filename: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetCoreRuntime\dotnet.exe
+Arguments: "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe" update -a "C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll" --output "C:/Users/Alice/AppData/Local/Temp/tmp5582fb8a.tmp" --api-version 2022.3.62f3  -s "C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\ref\2.1.0;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netfx;+C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Assets;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.sprite@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ads@4.4.2;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ai.navigation@1.1.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.analytics@3.8.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.collab-proxy@2.7.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.rider@3.0.36;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.22;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.vscode@1.2.5;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.purchasing@4.11.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.test-framework@1.1.33;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.textmeshpro@3.0.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.timeline@1.7.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ugui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.12;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ai@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.animation@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.audio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.director@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.video@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.wind@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.xr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.core@1.14.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.analytics@6.0.3;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1;+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Managed" "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine.dll"
+Filename: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetCoreRuntime\dotnet.exe
+Arguments: "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/ScriptUpdater/AssemblyUpdater.exe" update -a "C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Library/PackageCache/com.unity.analytics@3.8.1/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll" --output "C:/Users/Alice/AppData/Local/Temp/tmp5a13fb2d.tmp" --api-version 2022.3.62f3  -s "C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\ref\2.1.0;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard;C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetStandard\compat\2.1.0\shims\netfx;+C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity/Assets;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.sprite@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.2d.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ads@4.4.2;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ai.navigation@1.1.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.analytics@3.8.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.collab-proxy@2.7.1;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.rider@3.0.36;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.22;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ide.vscode@1.2.5;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.purchasing@4.11.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.test-framework@1.1.33;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.textmeshpro@3.0.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.timeline@1.7.7;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ugui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.12;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ai@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.animation@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.audio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.director@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.ui@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.video@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.vr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.wind@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.xr@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.core@1.14.0;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.services.analytics@6.0.3;+C:\Users\Alice\Desktop\Espelho\Projetos DEV\TellstonesUnity\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1;+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Managed" "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine.dll"
+[API Updater] Assemblies not requiring updates:
+[API Updater] Packages/com.unity.analytics/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll
+[API Updater] Packages/com.unity.analytics/Unity.Analytics.Tracker.dll
+[API Updater] Packages/com.unity.analytics/Unity.Analytics.Editor.dll
+[API Updater] Update finished with success in 1363 ms (0/3 assembly(ies) updated).
+Assembly Updater Post Process Assets time: 1.995141s
+[ScriptCompilation] Requested script compilation because: Assembly Definition File(s) changed
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s717ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[ 97/103    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\_Project\Visual\StoneView.cs(19,40): warning CS0414: The field 'StoneView.flipDuration' is assigned but its value is never used
+*** Tundra requires additional run (0.69 seconds), 1 items updated, 96 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity
+ExitCode: 0 Duration: 0s289ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Alice/Desktop/Espelho/Projetos DEV/TellstonesUnity
+ExitCode: 3 Duration: 4s958ms
+Finished compiling graph: 628 nodes, 8445 flattened edges (7433 ToBuild, 120 ToUse), maximum node priority 496
+[ 87/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt
+[ 88/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp
+[ 89/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.rsp2
+[ 90/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2
+[ 91/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp
+[ 92/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt
+[ 93/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2
+[ 94/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.UnityAdditionalFile.txt
+[ 95/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.dll.mvfrm.rsp
+[ 96/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.rsp
+[ 97/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp
+[ 98/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.rsp2
+[ 99/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.UnityAdditionalFile.txt
+[100/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp
+[101/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.dll.mvfrm.rsp
+[102/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp
+[103/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.rsp
+[104/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.rsp2
+[105/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp
+[106/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2
+[107/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt
+[108/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.UnityAdditionalFile.txt
+[109/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt
+[110/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.rsp2
+[111/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2
+[112/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.UnityAdditionalFile.txt
+[113/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp
+[114/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityCore.rsp2
+[115/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp
+[116/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.dll.mvfrm.rsp
+[117/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityCore.UnityAdditionalFile.txt
+[118/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.UnityAdditionalFile.txt
+[119/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.rsp2
+[120/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.rsp
+[121/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.dll.mvfrm.rsp
+[122/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityCore.dll.mvfrm.rsp
+[123/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.dll.mvfrm.rsp
+[124/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.rsp
+[125/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.rsp
+[126/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleCore.UnityAdditionalFile.txt
+[127/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityCore.rsp
+[128/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleCore.rsp2
+[129/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTCore.UnityAdditionalFile.txt
+[130/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTCore.rsp2
+[131/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.rsp2
+[132/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.UnityAdditionalFile.txt
+[133/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleCore.dll.mvfrm.rsp
+[134/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleCore.rsp
+[135/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTCore.dll.mvfrm.rsp
+[136/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.rsp2
+[137/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.UnityAdditionalFile.txt
+[138/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTCore.rsp
+[139/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.UnityAdditionalFile.txt
+[140/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.dll.mvfrm.rsp
+[141/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.rsp
+[142/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.rsp2
+[143/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.dll.mvfrm.rsp
+[144/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.rsp
+[145/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleMacosStub.rsp2
+[146/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleMacosStub.UnityAdditionalFile.txt
+[147/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.dll.mvfrm.rsp
+[148/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTStub.rsp2
+[149/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleStub.rsp2
+[150/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTStub.UnityAdditionalFile.txt
+[151/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleStub.UnityAdditionalFile.txt
+[152/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.UnityAdditionalFile.txt
+[153/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.rsp2
+[154/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.rsp2
+[155/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.UnityAdditionalFile.txt
+[156/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleMacosStub.dll.mvfrm.rsp
+[157/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTStub.dll.mvfrm.rsp
+[158/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.rsp
+[159/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleStub.dll.mvfrm.rsp
+[160/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.rsp2
+[161/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.UnityAdditionalFile.txt
+[162/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.UnityAdditionalFile.txt
+[163/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.rsp2
+[164/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.UnityAdditionalFile.txt
+[165/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTStub.rsp
+[166/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleStub.rsp
+[167/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleMacosStub.rsp
+[168/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.rsp2
+[169/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.UnityAdditionalFile.txt
+[170/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.dll.mvfrm.rsp
+[171/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.dll.mvfrm.rsp
+[172/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.rsp2
+[173/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.rsp
+[174/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.rsp
+[175/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.dll.mvfrm.rsp
+[176/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.dll.mvfrm.rsp
+[177/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.UnityAdditionalFile.txt
+[178/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.dll.mvfrm.rsp
+[179/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.rsp2
+[180/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.rsp2
+[181/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.UnityAdditionalFile.txt
+[182/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.UnityAdditionalFile.txt
+[183/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.rsp2
+[184/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Components.rsp2
+[185/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Components.UnityAdditionalFile.txt
+[186/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.rsp
+[187/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.rsp
+[188/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.rsp
+[189/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.UnityAdditionalFile.txt
+[190/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.dll.mvfrm.rsp
+[191/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.rsp2
+[192/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.dll.mvfrm.rsp
+[193/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll.mvfrm.rsp
+[194/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Components.dll.mvfrm.rsp
+[195/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.rsp
+[196/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.dll.mvfrm.rsp
+[197/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.rsp
+[198/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.rsp
+[199/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Components.rsp
+[200/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.dll.mvfrm.rsp
+[201/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.UnityAdditionalFile.txt
+[202/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.rsp2
+[203/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.UnityAdditionalFile.txt
+[204/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.rsp
+[205/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.rsp2
+[206/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.dll.mvfrm.rsp
+[207/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.dll.mvfrm.rsp
+[208/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.rsp
+[209/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.rsp
+[210/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.rsp
+[211/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.UnityAdditionalFile.txt
+[212/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.rsp2
+[213/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.UnityAdditionalFile.txt
+[214/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt
+[215/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2
+[216/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt
+[217/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2
+[218/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.UnityAdditionalFile.txt
+[219/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.rsp2
+[220/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.rsp2
+[221/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Codeless.UnityAdditionalFile.txt
+[222/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Codeless.rsp2
+[223/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm.rsp
+[224/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.dll.mvfrm.rsp
+[225/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp
+[226/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.dll.mvfrm.rsp
+[227/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Codeless.dll.mvfrm.rsp
+[228/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.dll.mvfrm.rsp
+[229/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp
+[230/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.rsp
+[231/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.rsp
+[232/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp
+[233/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.rsp
+[234/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Codeless.rsp
+[235/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp2
+[236/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt
+[237/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.UnityAdditionalFile.txt
+[238/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.rsp2
+[239/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.UnityAdditionalFile.txt
+[240/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.rsp2
+[241/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.Purchasing.rsp2
+[242/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.UnityAdditionalFile.txt
+[243/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.UnityAdditionalFile.txt
+[244/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp2
+[245/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.rsp2
+[246/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.UnityAdditionalFile.txt
+[247/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.rsp2
+[248/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.rsp2
+[249/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.UnityAdditionalFile.txt
+[250/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt
+[251/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2
+[252/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.UnityAdditionalFile.txt
+[253/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.rsp2
+[254/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt
+[255/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2
+[256/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt
+[257/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2
+[258/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt
+[259/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2
+[260/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt
+[261/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2
+[262/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.Purchasing.UnityAdditionalFile.txt
+[263/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.UnityAdditionalFile.txt
+[264/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.rsp2
+[265/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.UnityAdditionalFile.txt
+[266/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.rsp2
+[267/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm.rsp
+[268/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp
+[269/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp
+[270/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm.rsp
+[271/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.dll.mvfrm.rsp
+[272/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.dll.mvfrm.rsp
+[273/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.dll.mvfrm.rsp
+[274/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp
+[275/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp
+[276/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp
+[277/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.Purchasing.dll.mvfrm.rsp
+[278/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll.mvfrm.rsp
+[279/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.dll.mvfrm.rsp
+[280/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.dll.mvfrm.rsp
+[281/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.dll.mvfrm.rsp
+[282/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.dll.mvfrm.rsp
+[283/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.dll.mvfrm.rsp
+[284/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp
+[285/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp
+[286/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.Purchasing.rsp
+[287/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.rsp
+[288/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.rsp
+[289/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp
+[290/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.rsp
+[291/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
+[292/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.rsp
+[293/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.rsp
+[296/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp
+[297/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.rsp
+[298/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.rsp
+[299/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.rsp
+[300/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp
+[303/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.UnityAdditionalFile.txt
+[304/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.rsp2
+[305/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Analytics.UnityAdditionalFile.txt
+[306/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Analytics.rsp2
+[307/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.dll.mvfrm.rsp
+[308/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Analytics.dll.mvfrm.rsp
+[309/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.rsp
+[310/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp
+[311/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Analytics.rsp
+[312/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll.mvfrm
+[313/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[314/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt
+[315/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.rsp2
+[316/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.dll.mvfrm.rsp
+[317/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp2
+[318/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp
+[319/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.UnityAdditionalFile.txt
+[320/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.rsp2
+[321/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp
+[322/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.dll.mvfrm.rsp
+[323/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp
+[324/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.UnityAdditionalFile.txt
+[325/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.rsp
+[326/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[327/625    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.rsp
+[328/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Analytics.Tracker.dll_B294C7C751B9DF6F.mvfrm
+[329/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Analytics.Editor.dll_448B18A867B17122.mvfrm
+[330/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Analytics.StandardEvents.dll_2539AF974BFE7ABE.mvfrm
+[331/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_E09CC82FEF75E5B7.mvfrm
+[332/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_9148C07F9746948E.mvfrm
+[332/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll (+2 others) [CacheHit 893f2ad4d679dfa1531f6a0e1d07031800000000000000000000000000000003]
+[333/625   1773084081s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.dll (+2 others)
+[335/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+[336/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+[337/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll.mvfrm
+[338/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_E55D0F7C63F01D9E.mvfrm
+[339/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll.mvfrm
+[338/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll (+2 others) [CacheHit 8e25ef8cf7a5468c4a7ceab9e167401000000000000000000000000000000003]
+[340/625   1773084081s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.dll (+2 others)
+[342/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+[343/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+[344/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TestRunner.ref.dll_193EC4CE382CBFB3.mvfrm
+[345/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[346/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb
+[347/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll
+[348/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_08FEAA520A2EFD60.mvfrm
+[349/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll.mvfrm
+[350/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[351/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb
+[352/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll
+[353/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm
+[354/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.dll.mvfrm
+[355/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.dll.mvfrm
+[356/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm
+[357/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.dll.mvfrm
+[358/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.dll.mvfrm
+[359/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll.mvfrm
+[360/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTCore.dll.mvfrm
+[361/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll.mvfrm
+[362/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityCore.dll.mvfrm
+[363/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll.mvfrm
+[364/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Analytics.dll.mvfrm
+[365/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleCore.dll.mvfrm
+[366/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm
+[367/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm
+[368/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm
+[369/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.dll.mvfrm
+[370/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.dll.mvfrm
+[371/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.dll.mvfrm
+[372/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll.mvfrm
+[373/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.dll (+2 others)
+[374/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Analytics.dll (+2 others)
+[375/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityCore.dll (+2 others)
+[376/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.dll (+2 others)
+[377/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.dll (+2 others)
+[378/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTCore.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityCore.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Analytics.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTCore.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[379/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.dll (+2 others)
+[380/625    0s] CopyFiles Library/ScriptAssemblies/Analytics.dll
+[381/625    0s] CopyFiles Library/ScriptAssemblies/Analytics.pdb
+[382/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+[383/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+[384/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll
+[385/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll
+[386/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll (+2 others)
+[387/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.dll
+[388/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.pdb
+[389/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.pdb
+[390/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.WinRTCore.pdb
+[391/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb
+[392/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.SpatialTracking.pdb
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[393/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll (+2 others)
+[394/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.dll (+2 others)
+[395/625    0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.dll
+[396/625    0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.pdb
+[397/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[398/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll
+[399/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[400/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[401/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.dll
+[402/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.pdb
+[403/625    0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll
+[404/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.pdb
+[405/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll
+[406/625    0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.pdb
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[407/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb
+[408/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll
+[409/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.ref.dll_131AC9C5EC6E6517.mvfrm
+[410/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Analytics.DataPrivacy.ref.dll_B44BF53B55CD31DE.mvfrm
+[411/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.WinRTCore.ref.dll_8D70B630A183DA39.mvfrm
+[412/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.SecurityCore.ref.dll_A4738A01776218D9.mvfrm
+[413/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll (+2 others)
+[414/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll (+2 others)
+[415/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll (+2 others)
+[416/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.dll (+2 others)
+[417/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpatialTracking.ref.dll_1552DC8EFC971715.mvfrm
+[418/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Rider.Editor.ref.dll_9B5591808ABA37AF.mvfrm
+[419/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.AI.Navigation.ref.dll_407F07063643C512.mvfrm
+[420/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll_D58562F0DF82BCBA.mvfrm
+[421/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Advertisements.ref.dll_324BF20D18302AEA.mvfrm
+[422/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Advertisements.Editor.ref.dll_95BDE7AB6BD0B967.mvfrm
+[423/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTStub.dll.mvfrm
+[424/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[425/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[426/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.dll.mvfrm
+[427/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.dll.mvfrm
+[428/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.dll.mvfrm
+[429/625    0s] CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+[430/625    0s] CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+[431/625    0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+[432/625    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb
+[433/625    0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb
+[434/625    0s] CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+[435/625    0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.pdb
+[436/625    0s] CopyFiles Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+[437/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_621CDDF9C514DF8F.mvfrm
+[438/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.dll.mvfrm
+[439/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[440/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll.mvfrm
+[441/625    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+[442/625    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll
+[443/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm
+[444/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VSCode.Editor.ref.dll_3628369EB48E4C19.mvfrm
+[445/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.2D.Sprite.Editor.ref.dll_DDBAA27A82CE9E28.mvfrm
+[446/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTStub.dll (+2 others)
+[447/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.dll (+2 others)
+[448/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.2D.Tilemap.Editor.ref.dll_436C0E2610862891.mvfrm
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.WinRTStub.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[449/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.dll (+2 others)
+[450/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.WinRTStub.pdb
+[451/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll
+[452/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+[453/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Analytics.pdb
+[454/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.dll (+2 others)
+[455/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.dll (+2 others)
+[456/625    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[457/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll
+[458/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.pdb
+[459/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[460/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.SpatialTracking.pdb
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[461/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+[462/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb
+[463/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+[464/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm
+[465/625    0s] CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb
+[466/625    0s] CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Internal.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[467/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.dll (+2 others)
+[468/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+[469/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Internal.pdb
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[470/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.WinRTStub.ref.dll_D8977B2444F09578.mvfrm
+[471/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Analytics.ref.dll_EDA1682A714EA6BF.mvfrm
+[472/625    0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll
+[473/625    0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Editor.pdb
+[474/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm
+[475/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.SecurityStub.ref.dll_EF9A4EF51ACED418.mvfrm
+[476/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SpatialTracking.ref.dll_8911EA67839E93F0.mvfrm
+[477/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XR.LegacyInputHelpers.ref.dll_FFA26A0728B3CF82.mvfrm
+[478/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm
+[479/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Internal.ref.dll_A02B3542C15F550A.mvfrm
+[480/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.AI.Navigation.Editor.ref.dll_7989A1C8D57EF9BF.mvfrm
+[481/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.dll.mvfrm
+[482/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll.mvfrm
+[483/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.dll.mvfrm
+[484/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.dll.mvfrm
+[485/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.dll.mvfrm
+[486/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.dll.mvfrm
+[487/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.dll.mvfrm
+[488/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.dll.mvfrm
+[489/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.dll.mvfrm
+[490/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.dll.mvfrm
+[491/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.dll.mvfrm
+[492/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.dll.mvfrm
+[493/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.dll.mvfrm
+[494/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[495/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.dll (+2 others)
+[496/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.dll (+2 others)
+[497/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.dll (+2 others)
+[498/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others)
+[499/625    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+[500/625    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+[501/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.dll (+2 others)
+[502/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.dll (+2 others)
+[503/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.dll (+2 others)
+[504/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Telemetry.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[505/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.dll (+2 others)
+[506/625    0s] CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+[507/625    0s] CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+[508/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+[509/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+[510/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.pdb
+[511/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.pdb
+[512/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Telemetry.pdb
+[513/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+[514/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Internal.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Threading.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[515/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+[516/625    0s] CopyFiles Library/ScriptAssemblies/Purchasing.Common.dll
+[517/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+[518/625    0s] CopyFiles Library/ScriptAssemblies/Purchasing.Common.pdb
+[519/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Threading.pdb
+[520/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+[521/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.pdb
+[522/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Configuration.pdb
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Networking.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[523/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.dll (+2 others)
+[524/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.dll (+2 others)
+[525/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+[526/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Networking.pdb
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Scheduler.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[527/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll (+2 others)
+[528/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Scheduler.pdb
+[529/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+[530/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Device.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[531/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+[532/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Analytics.pdb
+[533/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Device.pdb
+[534/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Analytics.dll
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[535/625    0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Updater.pdb
+[536/625    0s] CopyFiles Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll
+[537/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm
+[538/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+[539/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+[540/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Telemetry.ref.dll_FA20132DD923A4D2.mvfrm
+[541/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.XR.LegacyInputHelpers.ref.dll_3F12D550ED6E7C7D.mvfrm
+[542/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Environments.ref.dll_7E0AC2CDE81D9C6D.mvfrm
+[543/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Configuration.ref.dll_9A0B0462DB47136F.mvfrm
+[544/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Threading.ref.dll_F1D7894C57B2A611.mvfrm
+[545/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Environments.Internal.ref.dll_E1932F3567E8EA54.mvfrm
+[546/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Networking.ref.dll_9223E05EC4657081.mvfrm
+[547/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Scheduler.ref.dll_EE2AFA3B402F70E4.mvfrm
+[548/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleCore.dll (+2 others)
+[549/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Components.dll.mvfrm
+[550/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Device.ref.dll_EC89AF6B778C7413.mvfrm
+[551/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Analytics.ref.dll_5F295EB8E7853A94.mvfrm
+[552/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.AI.Navigation.Updater.ref.dll_34B8D5B7DED6E76D.mvfrm
+[553/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleCore.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[554/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_0D3D3C0B73557612.mvfrm
+[555/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.AppleCore.pdb
+[556/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll
+[557/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.dll.mvfrm
+[558/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.dll.mvfrm
+[559/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Components.dll (+2 others)
+[560/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.AppleCore.ref.dll_CD4560D143B7DBE5.mvfrm
+[561/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Components.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[562/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Components.dll
+[563/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Components.pdb
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Configuration.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[564/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+[565/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.pdb
+[566/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleStub.dll.mvfrm
+[567/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleMacosStub.dll.mvfrm
+[568/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Registration.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[569/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Registration.pdb
+[570/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+[571/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Components.ref.dll_066D80BB5B7F72E3.mvfrm
+[572/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Configuration.Editor.ref.dll_FF09FAD520872032.mvfrm
+[573/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[574/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.pdb
+[575/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.dll
+[576/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleStub.dll (+2 others)
+[577/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleMacosStub.dll (+2 others)
+[578/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Registration.ref.dll_0EE1D1878B496356.mvfrm
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleMacosStub.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.AppleStub.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[579/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.pdb
+[580/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll
+[581/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.AppleStub.pdb
+[582/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll
+[583/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.dll.mvfrm
+[584/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.ref.dll_5673313DB44037AA.mvfrm
+[585/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.AppleStub.ref.dll_186C25C4E7249724.mvfrm
+[586/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.AppleMacosStub.ref.dll_CBC38FDCA6030C51.mvfrm
+[587/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.dll.mvfrm
+[588/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[589/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+[590/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb
+[591/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Editor.ref.dll_CCD0CF61C5D7A10A.mvfrm
+[592/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[593/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.pdb
+[594/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll
+[595/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.dll.mvfrm
+[596/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.dll.mvfrm
+[597/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.Stores.ref.dll_D1DFD8417D6A87AC.mvfrm
+[598/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.dll (+2 others)
+[599/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Codeless.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.DevX.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[600/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.DevX.Editor.dll
+[601/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Advertisements.DevX.Editor.pdb
+[602/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[603/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.pdb
+[604/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Environments.Editor.dll
+[605/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Codeless.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Codeless.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[606/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll
+[607/625    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.pdb
+[608/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Environments.Editor.ref.dll_4254655028E87114.mvfrm
+[609/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.dll.mvfrm
+[610/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.Codeless.ref.dll_513D40CFE18D69D0.mvfrm
+[611/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UnityEditor.Purchasing.dll.mvfrm
+[612/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.Editor.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[613/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Analytics.Editor.pdb
+[614/625    0s] CopyFiles Library/ScriptAssemblies/Unity.Services.Analytics.Editor.dll
+[615/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.Purchasing.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.Purchasing.dll (+2 others) [CacheWrite 00000000000000000000000000000003]
+[616/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.Purchasing.dll
+[617/625    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.Purchasing.pdb
+[618/625    0s] MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.Purchasing.ref.dll_8A54E68F887CD9BF.mvfrm
+[619/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm
+[620/625    0s] MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm
+[621/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\_Project\Visual\StoneView.cs(19,40): warning CS0414: The field 'StoneView.flipDuration' is assigned but its value is never used
+[622/625    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[623/625    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[624/625    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+##### CommandLine
+"C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetCoreRuntime\dotnet.exe" exec "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/DotNetSdkRoslyn/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2"
+##### Contents of Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.rsp
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.ref.dll"
+-define:UNITY_2022_3_62
+-define:UNITY_2022_3
+-define:UNITY_2022
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION
+-define:ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT
+-define:ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Editor.dll"
+-r:"Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/log4netPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/unityplastic.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Analytics.DataPrivacy.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Components.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.Purchasing.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Advertisements.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Codeless.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityCore.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/_Project/Editor/AutoSetupDemoScene.cs"
+-langversion:9.0
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
+##### Custom Environment Variables
+DOTNET_MULTILEVEL_LOOKUP=0
+##### ExitCode
+1
+##### Output
+Assets\_Project\Editor\AutoSetupDemoScene.cs(32,37): error CS0246: The type or namespace name 'PhysicsRaycaster' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\_Project\Editor\AutoSetupDemoScene.cs(34,48): error CS0246: The type or namespace name 'PhysicsRaycaster' could not be found (are you missing a using directive or an assembly reference?)
+*** Tundra build failed (4.94 seconds), 530 items updated, 625 evaluated
+## Script Compilation Error for: Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+## CmdLine: "C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\NetCoreRuntime\dotnet.exe" exec "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/DotNetSdkRoslyn/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2"
+## Output:
+Assets\_Project\Editor\AutoSetupDemoScene.cs(32,37): error CS0246: The type or namespace name 'PhysicsRaycaster' could not be found (are you missing a using directive or an assembly reference?)
+Assets\_Project\Editor\AutoSetupDemoScene.cs(34,48): error CS0246: The type or namespace name 'PhysicsRaycaster' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\_Project\Visual\StoneView.cs(19,40): warning CS0414: The field 'StoneView.flipDuration' is assigned but its value is never used
+Assets\_Project\Editor\AutoSetupDemoScene.cs(32,37): error CS0246: The type or namespace name 'PhysicsRaycaster' could not be found (are you missing a using directive or an assembly reference?)
+Assets\_Project\Editor\AutoSetupDemoScene.cs(34,48): error CS0246: The type or namespace name 'PhysicsRaycaster' could not be found (are you missing a using directive or an assembly reference?)
+AssetDatabase: script compilation time: 6.393884s
+Scripts have compiler errors.
+Exiting without the bug reporter. Application will terminate with return code 1

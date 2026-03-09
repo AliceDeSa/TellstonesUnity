@@ -10,7 +10,7 @@ namespace Tellstones.Editor
 {
     public class AutoSetupDemoScene
     {
-        [MenuItem("Tellstones/1. Gerar Cena Base de Testes")]
+        [MenuItem("Tools/Tellstones/1. Gerar Cena Base de Testes")]
         public static void GenerateScene()
         {
             Debug.Log("Iniciando geração da Cena de Demostração...");
